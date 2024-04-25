@@ -15,89 +15,89 @@ Config.Locations = {
         coords = vector4(38.15, -1001.65, 29.44, 342.5),
     },
 }
-
+local mul = 15
 Config.Stock = {
     ["exotic"] = {
         Current = 0,
         Max = {
-            [1] = 15*15,
-            [2] = 30*15,
-            [3] = 45*15,
-            [4] = 60*15,
+            [1] = 15,
+            [2] = 30,
+            [3] = 45,
+            [4] = 60,
         },
         Label = Lang:t("info.label_a"),
         Price = {
             [1] = {
-                min = 8,
-                max = 12,
+                min = 8*mul,
+                max = 12*mul,
             },
             [2] = {
-                min = 9,
-                max = 13,
+                min = 9*mul,
+                max = 13*mul,
             },
             [3] = {
-                min = 10,
-                max = 14,
+                min = 10*mul,
+                max = 14*mul,
             },
             [4] = {
-                min = 11,
-                max = 15,
+                min = 11*mul,
+                max = 15*mul,
             },
         }
     },
     ["rare"] = {
         Current = 0,
         Max = {
-            [1] = 15*15,
-            [2] = 30*15,
-            [3] = 45*15,
-            [4] = 60*15,
+            [1] = 15,
+            [2] = 30,
+            [3] = 45,
+            [4] = 60,
         },
         Label = Lang:t("info.label_b"),
         Price = {
             [1] = {
-                min = 6,
-                max = 9,
+                min = 6*mul,
+                max = 9*mul,
             },
             [2] = {
-                min = 7,
-                max = 10,
+                min = 7*mul,
+                max = 10*mul,
             },
             [3] = {
-                min = 8,
-                max = 11,
+                min = 8*mul,
+                max = 11*mul,
             },
             [4] = {
-                min = 9,
-                max = 12,
+                min = 9*mul,
+                max = 12*mul,
             },
         }
     },
     ["common"] = {
         Current = 0,
         Max = {
-            [1] = 15*15,
-            [2] = 30*15,
-            [3] = 45*15,
-            [4] = 60*15,
+            [1] = 15,
+            [2] = 30,
+            [3] = 45,
+            [4] = 60,
         },
         Label = Lang:t('info.label_c'),
         Price = {
             [1] = {
-                min = 4,
-                max = 6,
+                min = 4*mul,
+                max = 6*mul,
             },
             [2] = {
-                min = 5,
-                max = 7,
+                min = 5*mul,
+                max = 7*mul,
             },
             [3] = {
-                min = 6,
-                max = 9,
+                min = 6*mul,
+                max = 9*mul,
             },
             [4] = {
-                min = 7,
-                max = 9,
+                min = 7*mul,
+                max = 9*mul,
             },
         }
     },
